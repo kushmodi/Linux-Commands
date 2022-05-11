@@ -1,0 +1,80 @@
+man stands for manual
+pwd present working directory
+echo to print something
+su/sudo bash switch to root user 
+sudo command is for user who does not have previlages of root
+sudo adduser to adduser
+grep 
+netstat
+cat
+ls
+head 
+tail
+ps
+ps -ef 
+env
+top
+ifconfig
+hostname -i
+lsof(list of open files)
+df
+df -h
+du
+du -sh
+id
+w
+chmod 
+ll
+chown
+dig
+nsookup
+ls -ltr
+factor 
+uname 
+uname -a
+ping
+mkdir
+rmdir
+gzip
+whoami
+who users logged in
+free
+free -g
+free -m
+echo
+passwd
+lscpu
+ps
+ps -ef | grep 
+lshw
+wget
+iostat
+dir
+diff
+dmidecode
+hostnamectl
+iptables -h
+netstat for viewing incoming and outgoing traffic
+lsof
+bzip2 compress files with bz2 extension
+vmstat virtual memory usage of terminal
+mpstat CPU information
+wc word count
+pmap to view memory blocks used by any particular process id
+ssh -h
+telnet
+scp
+sleep 2s Terminal will sleep for 2 seconds
+stat 
+lsblk
+
+Cp:- 
+For copying files
+cp Src_file Dest_file
+cp Src_file1 Src_file2 Src_file3 Dest_directory
+cp -R Src_directory Dest_directory
+
+mv:-
+Use the mv command to move files and directories from one directory to another or to rename a file or directory. If you move a file or directory 
+to a new directory without specifying a new name, it retains its original name.
+
