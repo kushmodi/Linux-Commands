@@ -1,0 +1,50 @@
+  sudo delgroup batchmates
+  164  cd example3
+  165  chown --from=kush root test2.txt
+  166  ls
+  167  ls -l
+  168  chown --from=kush root new
+  169  sudo chown kush:root test2.txt testone.txt
+  170  ls -l
+  171  chmod sudo chgrp examples test2.txt
+  172  chmod sudo chgrp batchmates test2.txt
+  173  sudo addgroup examples
+  174  sudo chgrp examples test2.txt
+  175  ls
+  176  ls -l
+  177  sudo chgrp -R --reference=test2.txt examples
+  178  sudo chgrp -R --reference=test2.txt example3
+  179  cd ..
+  180  sudo chgrp -R --reference=test2.txt example3
+  181  sudo chmod 777 example3
+  182  sudo chmod -R 777 example3
+  183  ls -l example3
+  184  sudo chmod -R 644 example3
+  185  ls -l example3
+  186  sudo chmod -R 755 example3
+  187  ls -l example3
+  188  mount -l
+  189  mount -t
+  190  mount -t /dev/sda1
+  191  df -i
+  192  df -t
+  193  df -T
+  194  ps
+  195  scp test2.txt jagruti@10.126.66.237:/jagruti/example
+  196  scp new.txt jagruti@10.126.66.237:
+  197  scp new.txt jagruti@10.126.66.237:/home/jagruti
+  198  scp test.py  jagruti@10.126.66.237:/home/jagruti
+  199  scp test2.txt  jagruti@10.126.66.237:/home/jagruti
+  200  scp test2.txt  jagruti@10.126.66.237:/home/jagruti/newfilename.txt
+  201  scp new.txt  jagruti@10.126.66.237:/home/jagruti/newfilename.txt
+  202  scp test1.txt  jagruti@10.126.66.237:/home/jagruti/
+  203  scp test1.txt  jagruti@10.126.66.237:/home/jagruti/Test1change.txt
+  204  ls
+  205  pwd
+  206  ls -l commands.txt
+  207  ls -l test1.txt
+  208  sudo chmod 777 test1.txt
+  209  ls -l test.txt
+  210  ls -l test1.txt
+  211  scp test1.txt  jagruti@10.126.66.237:/home/jagruti/Test1change.txt
+  212  sudo chmod -R 777 example3
